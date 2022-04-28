@@ -1,133 +1,152 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-
-body {
-  font-family: 'Roboto Condensed', sans-serif;
-  margin: 0;
-  background: #eee;
-  height: auto;
+.navbar-brand img {
+    width: 120px;
 }
 
-h1 {
-  font-weight: 400;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  margin: 0;
+p {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-h2 {
-  font-weight: 400;
-  font-size: 1.2rem;
-  text-transform: capitalize;
-  margin: 0;
+h1, h2, h3, h4, h5, h6 {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-img {
-  display: block;
-  width: 100%;
+.nav-link {
+    color: #fff;
+    font-weight: 500;
 }
 
-main {
-  max-width: 900px;
-  margin: auto;
-  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
-    -30px 0px 40px rgba(0, 0, 0, 0.1);
+.nav-tel a {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
 }
 
-#landing {
-  background: #fff;
+.carousel-item img {
+    height: calc(100vh - 77px);
 }
 
-#landing-text {
-  display: flex;
-  flex: 0 1 40vw;
-  height: 50vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-right: 1rem;
-  padding-left: 1rem;
+.carousel {
+    position: relative;
 }
 
-#landing-text h2 {
-  color: #888;
+.validation {
+    border-color: #ff0000 !important;
+    color: #ff0000 !important;
 }
 
-#landing-image {
-  background: url(https://source.unsplash.com/De8wMYoSSBc);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50vh;
-  flex: 0 1 60vw;
-  margin: 0;
+.navbar-nav {
+    margin-right: 50px !important;
 }
 
-.btn {
-  padding: 0.5rem 2rem;
-  border: 1px #ccc solid;
-  display: inline-block;
-  margin: 2rem 0 0;
-  border-radius: 50px;
-  text-decoration: none;
-  color: #333;
-  transition: background 500ms ease;
+.text-justify {
+    text-align: justify;
 }
 
-.btn:hover {
-  background: #f4f4f4;
+.form-control {
+    box-shadow: none !important;
+    margin: 10px 0;
 }
 
-#header {
-  padding: 1.5rem;
-  text-align: center;
-  background: #333;
-  color: #fff;
+.top-form {
+    /* display: none; */
+    /* position: inherit; */
+    /* top: 130px; */
+    /* width: 350px; */
+    /* left: 120px; */
+    margin: 0 30px;
+    padding: 20px 20px;
+    background-color: #6495ed;
+    border-radius: 10px;
 }
 
-#header h2 {
-  border-left: dotted 1px #fff;
-  border-right: dotted 1px #fff;
-  display: inline-block;
-  padding-right: 1rem;
-  padding-left: 1rem;
+.top-form h2 {
+    text-align: center;
 }
 
-.caption {
-  padding: 0.8rem;
-  text-align: center;
+.card {
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.card .heading {
+    padding: 5px 0 !important;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #7a7a7a;
+}
+
+h2.heading {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 40px 0!important;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+}
+
+h2.heading::after {
+    position: absolute;
+    content: '';
+    top: 55px;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    transform: translateX(-50%);
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card-body {
+    margin-top: -43px;
+    padding: 0 !important;
+}
+
+.card a {
+    border-radius: 0 !important;
+}
+
+.card p {
+    padding: 10px 30px !important;
+    font-size: 14px;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.card p i {
+    font-size: 13px;
+    width: 30px;
+}
+
+.white {
+    color: #fff;
 }
 
 footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  margin: auto;
-  color: #333;
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
 }
 
-footer h3 {
-  font-size: 3rem;
-  margin-bottom: 0;
+.bottom {
+    padding: 15px;
+    text-align: center;
 }
 
-/* Screen Sizes 500px and Up */
-@media (min-width: 500px) {
-  #landing {
-    display: flex;
-    height: 100%;
-  }
-
-  #landing-text {
-    height: 100vh;
-  }
-
-  #landing-image {
-    height: 100vh;
-  }
+.bottom p {
+    font-weight: 500;
 }
 
-/* Screen Sizes 700px and Up */
-@media (min-width: 700px) {
-  .btn {
-    padding: 1rem 3rem;
-  }
+.bottom p a {
+    font-weight: 500;
+    text-decoration: none;
 }
