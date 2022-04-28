@@ -3,72 +3,438 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Acme Photography</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DLF projects in Gurgaon</title>
 </head>
 
 <body>
-    <main>
-        <!-- Landing Area -->
-        <div id="landing">
-            <div id="landing-text">
-                <div id="landing-text-inner">
-                    <h1>Acme Photography</h1>
-                    <h2>Beautiful Natural Photography</h2>
-                    <a href="#images" class="btn" id="view-work">
-                        View Work
-                    </a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About DLF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+                </ul>
+                <form class="d-flex nav-tel">
+                    <a href="tel:0123456789"><i class="fas fa-headset"></i> &nbsp;0123 456 789</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="home" class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- <div class="top-form">
+        <h2>Get Best Deals</h2>
+        <form action="mail.php" method="post">
+            <input type="text" name="name" placeholder="Name" class="form-control" required>
+            <input type="email" name="email" placeholder="Email" class="form-control" required>
+            <input type="tel" name="phone" placeholder="Phone Number" class="form-control" required>
+            <textarea name="message" placeholder="Message" class="form-control" required></textarea>
+            <input type="submit" value="Submit" class="btn w-100 btn-primary">
+        </form>
+    </div> -->
+    <section>
+        <div class="container">
+            <h2 id="about" class="heading">
+                About DLF India
+            </h2>
+            <p class="text-justify">
+                DLF has a legacy of 74 years old to provide real-estate development, management, and investment services
+                of the highest calibre. From developing 22 major colonies in Delhi, DLF is now present across 15
+                states-24 cities in India. From developing 22 major colonies in Delhi, DLF is now present across 15
+                states-24 cities in India. DLF has an unmatched track record of customer-centric excellence in India.
+            </p>
+            <h3 class="my-2 text-center">
+                About Garden City Floors
+            </h3>
+            <p class="text-justify">
+                DLF Garden City Floors are an independent luxury floors which is located at Sec-92, New Gurgaon. This is
+                a gated community with 100% power backup. This property is in high demand due to it’s brand name and
+                strategic location. It’s a high end residential project by DLF which will are spacious and airy and it
+                will offer a high level of privacy. All the reputed academic institution and hospitals are situated in
+                close proximity. You can use this property for both commercial or residential purposes.
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 id="projects" class="heading">Project</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-12">
+                    <div class="card w-100">
+                        <img src="img/p-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="heading">Heading</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-store-alt-slash"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt-h"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-rupee-sign"></i> Lorem, ipsum.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-primary">Know More</a></div>
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-warning">Call Now</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card w-100">
+                        <img src="img/p-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="heading">Heading</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-store-alt-slash"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt-h"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-rupee-sign"></i> Lorem, ipsum.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-primary">Know More</a></div>
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-warning">Call Now</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card w-100">
+                        <img src="img/p-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="heading">Heading</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-store-alt-slash"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt-h"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-rupee-sign"></i> Lorem, ipsum.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-primary">Know More</a></div>
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-warning">Call Now</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card w-100">
+                        <img src="img/p-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="heading">Heading</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-store-alt-slash"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt-h"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-rupee-sign"></i> Lorem, ipsum.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-primary">Know More</a></div>
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-warning">Call Now</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card w-100">
+                        <img src="img/p-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="heading">Heading</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-store-alt-slash"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt-h"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-rupee-sign"></i> Lorem, ipsum.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-primary">Know More</a></div>
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-warning">Call Now</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card w-100">
+                        <img src="img/p-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="heading">Heading</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-store-alt-slash"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt-h"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-rupee-sign"></i> Lorem, ipsum.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-primary">Know More</a></div>
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-warning">Call Now</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card w-100">
+                        <img src="img/p-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="heading">Heading</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-store-alt-slash"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt-h"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-rupee-sign"></i> Lorem, ipsum.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-primary">Know More</a></div>
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-warning">Call Now</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card w-100">
+                        <img src="img/p-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="heading">Heading</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-store-alt-slash"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-arrows-alt-h"></i> Lorem, ipsum.
+                            </p>
+                            <p>
+                                <i class="fas fa-rupee-sign"></i> Lorem, ipsum.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-primary">Know More</a></div>
+                            <div class="col-6 p-0 m-0"><a href="#" class="btn w-100 btn-warning">Call Now</a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="landing-image"></div>
         </div>
-
-        <div id="images">
-            <div id="header">
-                <h2>Our Work</h2>
-            </div>
-
-            <img src="https://source.unsplash.com/1600x900/?nature,water" alt="">
-            <div class="caption">
-                <h3>Photo One</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-            </div>
-            <img src="https://source.unsplash.com/1600x900/?nature,trees" alt="">
-            <div class="caption">
-                <h3>Photo Two</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-            </div>
-            <img src="https://source.unsplash.com/1600x900/?nature,flowers" alt="">
-            <div class="caption">
-                <h3>Photo Three</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-            </div>
-            <img src="https://source.unsplash.com/1600x900/?nature,animals" alt="">
-            <div class="caption">
-                <h3>Photo Four</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-            </div>
-            <img src="https://source.unsplash.com/1600x900/?nature,clouds" alt="">
-            <div class="caption">
-                <h3>Photo Five</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="heading">Why Gurugram</h2>
+            <p>
+                Gurugram is home to 250+ Fortune 500 companies and has an entrepreneurial culture that can rival any
+                other city in India. The city is the first choice for high-end corporate offices because of its
+                excellent location, smart infrastructure and robust investment opportunities. Gurugram has evolved into
+                a world-class city and become an investment magnet for homebuyers and investors. Big Corporate houses
+                has fuelled the demand for housing in recent years. As per Real estate experts Gurugram will take a lead
+                in affordable housing as a lot of projects are being launched in this segment. This will fuel property
+                prices in the region.
+            </p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="heading">Contact Us</h2>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h4 class="mb-3">About</h4>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae assumenda, harum sapiente
+                        ducimus molestias consectetur minima quibusdam ullam cupiditate facere. Consectetur, voluptates
+                        incidunt facere tenetur laudantium ipsa nam a expedita perferendis dolores, reiciendis itaque
+                        quia quasi nobis. Optio, asperiores? Et facere quas cupiditate assumenda dignissimos ab officiis
+                        possimus non debitis sint maiores nisi hic, dolore doloribus quis eaque, eos explicabo sequi
+                        ullam repellat repellendus aut rem velit quaerat. Reprehenderit quaerat ipsum eius veniam
+                        dolores eveniet, non sequi ab amet, iusto illum praesentium ex error deleniti asperiores sit,
+                        eaque repudiandae a dolore similique iure ipsam facilis. Fugit repellendus at sapiente nobis.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="top-form">
+                        <h2>Get Best Deals</h2>
+                        <form action="mail.php" method="post">
+                            <input type="text" onkeyup="return namef()" id="name" name="name" placeholder="Name"
+                                class="form-control">
+                            <input type="email" id="email" onkeyup="return emailf()" name="email" placeholder="Email"
+                                class="form-control">
+                            <input type="tel" name="phone" onkeyup="return phonef()" maxlength="13" id="phone"
+                                placeholder="Phone Number" class="form-control">
+                            <textarea name="message" onkeyup="return messagef()" placeholder="Message" id="message"
+                                class="form-control"></textarea>
+                            <input type="submit" onclick="return validation()" value="Submit"
+                                class="btn w-100 btn-primary">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
-
+    </section>
     <footer>
-        <h3>Get In Touch</h3>
-        <p>Email or call us to set up a consult</p>
-        <p>Email:
-            <strong>contact@acmephotos.test</strong>
-        </p>
-        <p>Phone:
-            <strong>(617) 555-5555</strong>
-        </p>
+        <div class="container">
+            <p class="white">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fuga dicta delectus optio,
+                consequuntur eos vero, inventore facere, dolorum quibusdam odio. Dolor ratione quas animi minima ad
+                perferendis inventore veritatis?
+            </p>
+            <p class="white">Copyright © 2021 All Rights Reserved</p>
+        </div>
     </footer>
-
+    <div class="bottom">
+        <p>
+            Design and Developed By <a href="https://www.sokalitsolutions.com/" target=" ">Sokal It Solutions</a>
+        </p>
+    </div>
 </body>
 
 </html>
+<script>
+    function validation() {
+        if (document.getElementById('name').value == '') {
+            document.getElementById("name").classList.add("validation");
+            document.getElementById('name').focus();
+            return false;
+        }
+        else if (document.getElementById('name').value.match(/^\S+$/)) {
+            document.getElementById("name").classList.add("validation");
+            document.getElementById('name').focus();
+            return false;
+        }
+        else if (document.getElementById('email').value == '') {
+            document.getElementById("email").classList.add("validation");
+            document.getElementById('email').focus();
+            return false;
+        }
+        else if (!document.getElementById('email').value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+            document.getElementById("email").classList.add("validation");
+            document.getElementById('email').focus();
+            return false;
+        }
+        else if (document.getElementById('phone').value == '') {
+            document.getElementById("phone").classList.add("validation");
+            document.getElementById('phone').focus();
+            return false;
+        }
+        else if (!document.getElementById('phone').value.length <= 10) {
+            document.getElementById("phone").classList.add("validation");
+            document.getElementById('phone').focus();
+            return false;
+        }
+        else if (document.getElementById('message').value == '') {
+            document.getElementById("message").classList.add("validation");
+            document.getElementById('message').focus();
+            return false;
+        }
+        else {
+            document.getElementById("phone").classList.remove("validation");
+        }
+    }
+</script>
