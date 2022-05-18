@@ -71,16 +71,6 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!-- <div class="top-form">
-        <h2>Get Best Deals</h2>
-        <form action="mail.php" method="post">
-            <input type="text" name="name" placeholder="Name" class="form-control" required>
-            <input type="email" name="email" placeholder="Email" class="form-control" required>
-            <input type="tel" name="phone" placeholder="Phone Number" class="form-control" required>
-            <textarea name="message" placeholder="Message" class="form-control" required></textarea>
-            <input type="submit" value="Submit" class="btn w-100 btn-primary">
-        </form>
-    </div> -->
     <section>
         <div class="container">
             <h2 id="about" class="heading">
@@ -399,11 +389,6 @@
 <script>
     function validation() {
         if (document.getElementById('name').value == '') {
-            document.getElementById("name").classList.add("validation");
-            document.getElementById('name').focus();
-            return false;
-        }
-        else if (document.getElementById('name').value.match(/^\S+$/)) {
             document.getElementById("name").classList.add("validation");
             document.getElementById('name').focus();
             return false;
