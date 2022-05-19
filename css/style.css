@@ -1,0 +1,489 @@
+header.sticky {
+    background-color: #fff !important;
+    position: sticky !important;
+    z-index: 99999999 !important;
+    transition: all 0.5s;
+    box-shadow: 0 0 1px;
+}
+
+header.sticky .navbar-brand {
+    padding: 15px 10px !important;
+    transition: all 0.5s;
+}
+
+header.sticky .nav-link {
+    color: #000 !important;
+    transition: all 0.5s;
+}
+
+header.sticky .call-now a {
+    color: #000 !important;
+    transition: all 0.5s;
+}
+
+header.sticky .call-now a span {
+    transition: all 0.5s;
+    color: #000 !important;
+}
+
+header {
+    position: fixed;
+    z-index: 999999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.navbar-brand {
+    background-color: #fff;
+    padding: 20px 15px !important;
+    border-radius: 5px;
+}
+
+.navbar-brand img {
+    height: 55px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #fd501f !important;
+}
+
+header .call-now i {
+    font-size: 34px;
+    margin-right: 15px;
+    line-height: 56px;
+    color: #fd501f;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header .call-now a {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header .call-now a span {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+header .free-q {
+    background-color: #fd501f;
+    font-size: 16px;
+    padding: 12px 45px;
+    line-height: 2;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-item:last-child {
+    margin-right: 15px;
+}
+
+.banner {
+    padding: 115px 0 50px 0;
+}
+
+.banner .orange-p {
+    color: #fd501f;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.banner h3 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.banner .normal {
+    color: #fff;
+    font-size: 14px;
+}
+
+.top-banner-div {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.icon-section {
+    text-overflow: ellipsis;
+    height: 100%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 30px 0px rgb(21 21 21 / 10%);
+}
+
+.icon-section .icon {
+    margin-right: 27px;
+}
+
+.icon-section i {
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    font-size: 55px;
+    color: #fd501f;
+}
+
+.icon-section p {
+    text-overflow: hidden;
+    display: block;
+    overflow: hidden;
+}
+
+.icon-section p a {
+    text-overflow: ellipsis;
+    display: block;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.icon-section p span {
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 16px;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.title-sub-heading {
+    font-weight: 500;
+    color: #fd501f;
+}
+
+.about img {
+    border-radius: 5px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+section h2.heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.service {
+    padding: 15px;
+    box-shadow: inherit;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.service:hover {
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+}
+
+.service h3 {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.service p {
+    opacity: 0.8;
+}
+
+.service a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.service a:hover {
+    color: #fd501f;
+    opacity: 1;
+}
+
+.owl-carousel .item {
+    text-align: center;
+    padding: 15px 26px;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+}
+
+.owl-carousel .item img {
+    margin: 10px auto;
+    width: 100px !important;
+    height: 100px !important;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+footer {
+    padding: 70px 0 30px 0;
+}
+
+.about-footer img {
+    max-width: 250px;
+}
+
+.about-footer .icons a {
+    display: inline-block;
+    color: #fd501f;
+    opacity: 1;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px 5px;
+    font-size: 22px;
+    border-radius: 100%;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.about-footer .icons a:hover {
+    background-color: #fd501f;
+    color: #fff;
+}
+
+footer {
+    background-color: #f0f8ff;
+}
+
+footer h3 {
+    font-size: 35px;
+}
+
+footer .footer-links ul {
+    list-style: none;
+}
+
+footer .footer-links ul li a {
+    list-style: none;
+    opacity: 0.7;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+footer .footer-links ul li a:hover {
+    color: #fd501f;
+    opacity: 1;
+}
+
+footer .footer-links ul li i {
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+    background-color: #fd501f;
+}
+
+footer .footer-links ul li {
+    position: relative;
+    left: -20px;
+    margin: 10px 0;
+}
+
+.broadcrumb {
+    padding: 150px 0 80px 0;
+    background: url(../img/Vector_2640.jpg) no-repeat center center;
+}
+
+.broadcrumb h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+.contact-form {
+    max-width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 50px 100px;
+    margin: 15px auto;
+}
+
+.contact-form .form-inpput, .contact-form .form-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 0 10px 13px;
+    opacity: 1;
+    color: #000;
+    border: none !important;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5) !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    margin: 10px 0;
+    outline: none;
+}
+
+.contact-form .form-inpput:focus, .contact-form .form-textarea:focus {
+    border: none !important;
+    border-bottom: 2px solid rgba(253, 80, 31) !important;
+}
+
+.contact-form .form-btn {
+    background-color: #fd501f;
+    font-size: 18px;
+    padding: 15px 100px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-form .form-btn:hover, header .free-q:hover {
+    color: #fff;
+    background-color: #df4a21;
+}
+
+.contact-form h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.contact-form p {
+    color: #fd501f;
+    font-weight: 500;
+    display: none;
+}
+
+.cont-details {
+    margin-top: 50px;
+}
+
+.cont-details .icons_contact {
+    background: #fff;
+    padding: 23px;
+    border-radius: 20px;
+    height: 100%;
+    font-weight: 500;
+    color: #000;
+    opacity: 1;
+    line-height: 41px;
+}
+
+.cont-details .icons_contact i {
+    margin-right: 7px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    margin-top: 11px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fd501f;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.cont-details .icons_contact a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.cont-details .icons_contact i::after, .cont-details .icons_contact i::before {
+    clear: both;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.map {
+    margin-top: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.projec img {
+    width: 100%;
+}
+
+#protfolio .item {
+    background-color: #fff !important;
+}
+
+#protfolio .item img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 0 !important;
+}
+
+.projec a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    color: #fd501f;
+}
+
+.inner-page .btn-in {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.inner-page .btn-in:hover, .inner-page .btn-in:focus {
+    background-color: #df4a21;
+    color: #fff;
+}
+
+.inner-page {
+    margin: 10px 0;
+}
+
+.inner-page p {
+    font-size: 19px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.software {
+    padding: 20px;
+    border: 2px solid #df4a21;
+    height: 100%;
+}
