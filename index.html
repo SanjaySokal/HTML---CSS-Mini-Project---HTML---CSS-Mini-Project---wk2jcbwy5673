@@ -388,9 +388,9 @@
 </html>
 <script>
     var working = document.getElementById('working');
-    working.addEventListener('click', function(){
+    working.addEventListener('click', function () {
         alert('Working on it');
-    })
+    });
 </script>
 <script>
     function validation() {
@@ -421,6 +421,8 @@
         }
         else {
             document.getElementById("phone").classList.remove("validation");
+            alert('Working on it');
+            return false;
         }
     }
 </script>
