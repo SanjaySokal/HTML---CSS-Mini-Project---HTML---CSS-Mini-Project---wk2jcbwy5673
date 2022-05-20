@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="https://use.fontawesome.com/c433dba01b.js"></script>
+
+  <style>
+    .title-blog,
+    h2,
+    a {
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+      position: relative;
+      display: inline-block;
+      margin: 0px;
+    }
+
+    h2::before {
+      position: absolute;
+      top: 20px;
+      left: -100px;
+      width: 80px;
+      height: 2px;
+      content: "";
+      background-color: rgb(0, 0, 0);
+    }
+
+    h2::after {
+      position: absolute;
+      top: 20px;
+      right: -100px;
+      width: 80px;
+      height: 2px;
+      content: "";
+      background-color: rgb(0, 0, 0);
+    }
+
+    .title-blog a {
+      font-size: 20px;
+      margin-right: 25px;
+      margin-left: 25px;
+    }
+
+    .card-image-top {
+      overflow: hidden !important;
+      box-sizing: border-box !important;
+      opacity: 1;
+      transition: all 0.2s linear 0.1s;
+    }
+
+    span {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 55px;
+      height: 20px;
+      background-color: rgb(250, 107, 255);
+      color: white;
+      text-align: center;
+      margin-left: 10px;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 10px;
+      padding: 2px 10px 5px;
+      border-radius: 3px;
+    }
+
+    .padding-deals {
+      padding: 90px;
+    }
+
+    .deals-link {
+      color: black !important;
+    }
+
+    .deals-link:hover {
+      color: black !important;
+      text-decoration: none !important;
+    }
+
+    .card-image-top:hover {
+      opacity: 0;
+    }
+
+    .hover-image {
+      left: 0;
+      bottom: -100%;
+      position: absolute;
+      opacity: 0;
+      transition: all 0.5s ease-out;
+    }
+
+    .img-content {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover .hover-image {
+      bottom: 0;
+      opacity: 1;
+    }
+
+    .hover-image-link {
+      margin: auto;
+      list-style-type: none;
+      position: absolute;
+      background-color: rgb(167, 73, 255);
+    }
+
+    .hover-image-link li {
+      display: inline-block;
+    }
+
+    .hover-image-link a {
+      color: white;
+      text-align: center;
+    }
+
+    .hover-image-link i {
+      color: white;
+      width: 50px;
+      cursor: pointer;
+    }
+    .rate{
+      color: rgb(142, 142, 142);
+    }
+    .card-body p i{
+      font-weight: 600;
+      position: relative;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="title-blog">
+    <h2 style="margin-bottom: 50px; margin-top: 50px;">DAILY DEALS!</h2> <br>
+    <a class="deals-link" href="#">New Arrivals</a> <a class="deals-link" href="#">Best Sellers</a>
+    <a class="deals-link" href="#">Sale Items</a> <br>
+  </div>
+  <div class="padding-deals">
+    <div class="card-group">
+      <div class="card-deck">
+        <div style="border: none;" class="card">
+          <div class="img-content">
+            <a href="#"><img src="1-1.jpg" class="card-img-top" alt="..."></a>
+            <div class="hover-image">
+              <a href="#"><img src="1-2.jpg" class="card-img-top" alt="..."></a>
+              <div class="hover-image-link">
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="#">Select Option</a></li>
+                <li style="float: right;"><i class="fa fab-eye">eye</i></li>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <center><a href="#" class="card-title text-center">Lorem ipsum fashion female top</a></center>
+            <p style="line-height: 30px;" class="text-center">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i> <br>
+              <i>$35.6</i>
+            </p>
+          </div>
+        </div>
+        <div style="border: none;" class="card">
+          <div class="img-content">
+            <a href="#"><img src="8.jpg" class="card-img-top" alt="..."></a>
+            <div class="hover-image">
+              <a href="#"><img src="6.jpg" class="card-img-top" alt="..."></a>
+              <div class="hover-image-link">
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="#">Select Option</a></li>
+                <li style="float: right;"><i class="fa fab-eye">eye</i></li>
+              </div>
+            </div>
+          </div>
+          <span>-10%</span>
+          <div class="card-body">
+            <center><a href="#" class="card-title text-center">Lorem ipsum fashion jacket</a></center>
+            <p style="line-height: 30px;" class="text-center">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i> <br>
+              <i>$26.87 - <a class="rate"> <del>$29.85</del></a></i>
+            </p>
+          </div>
+        </div>
+        <div style="border: none;" class="card">
+          <div class="img-content">
+            <a href="#"><img src="30.jpg" class="card-img-top" alt="..."></a>
+            <div class="hover-image">
+              <a href="#"><img src="23.jpg" class="card-img-top" alt="..."></a>
+              <div class="hover-image-link">
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="#">Select Option</a></li>
+                <li style="float: right;"><i class="fa fab-eye">eye</i></li>
+              </div>
+            </div>
+          </div>
+          <span>-10%</span>
+          <div class="card-body">
+            <center><a href="#" class="card-title text-center">Lorem ipsum kids eight</a></center>
+            <p style="line-height: 30px;" class="text-center">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i> <br>
+              <i>$26.87 - <a class="rate"><del>$29.85</del></a></i>
+            </p>
+          </div>
+        </div>
+        <div style="border: none;" class="card">
+          <div class="img-content">
+            <a href="#"><img src="6.jpg" class="card-img-top" alt="..."></a>
+            <div class="hover-image">
+              <a href="#"><img src="3.jpg" class="card-img-top" alt="..."></a>
+              <div class="hover-image-link">
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="#">Select Option</a></li>
+                <li style="float: right;"><i class="fa fab-eye">eye</i></li>
+              </div>
+            </div>
+          </div>
+          <span style="background-color: rgb(167, 73, 255);">New</span>
+          <div class="card-body">
+            <center><a href="#" class="card-title text-center">Lorem ipsum jacket</a></center>
+            <p style="line-height: 30px;" class="text-center">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i> <br>
+              <i>$19.85</i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-group">
+      <div class="card-deck">
+        <div style="border: none;" class="card">
+          <div class="img-content">
+            <a href="#"><img src="28.jpg" class="card-img-top" alt="..."></a>
+            <div class="hover-image">
+              <a href="#"><img src="29.jpg" class="card-img-top" alt="..."></a>
+              <div class="hover-image-link">
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="#">Select Option</a></li>
+                <li style="float: right;"><i class="fa fab-eye">eye</i></li>
+              </div>
+            </div>
+          </div>
+          <span style="background-color: rgb(167, 73, 255);">New</span>
+          <div class="card-body">
+            <center><a href="#" class="card-title text-center">Lorem ipsum kids six</a></center>
+            <p style="line-height: 30px;" class="text-center">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i> <br>
+              <i>$19.85</i>
+            </p>
+          </div>
+        </div>
+        <div style="border: none;" class="card">
+          <div class="img-content">
+            <a href="#"><img src="1-2.jpg" class="card-img-top" alt="..."></a>
+            <div class="hover-image">
+              <a href="#"><img src="5.jpg" class="card-img-top" alt="..."></a>
+              <div class="hover-image-link">
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="#">Select Option</a></li>
+                <li style="float: right;"><i class="fa fab-eye">eye</i></li>
+              </div>
+            </div>
+          </div>
+          <span>-40%</span>
+          <span style="background-color: rgb(167, 73, 255); margin-top: 30px;">New</span>
+          <div class="card-body">
+            <center><a href="#" class="card-title text-center">Lorem ipsum fashion female coat</a></center>
+            <p style="line-height: 30px;" class="text-center">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i> <br>
+              <i>$33.3 - <a class="rate"><del>$55.5</del></a></i>
+            </p>
+          </div>
+        </div>
+        <div style="border: none;" class="card">
+          <div class="img-content">
+            <a href="#"><img src="29.jpg" class="card-img-top" alt="..."></a>
+            <div class="hover-image">
+              <a href="#"><img src="30.jpg" class="card-img-top" alt="..."></a>
+              <div class="hover-image-link">
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="#">Select Option</a></li>
+                <li style="float: right;"><i class="fa fab-eye">eye</i></li>
+              </div>
+            </div>
+          </div>
+          <span>-40%</span>
+          <span style="background-color: rgb(167, 73, 255); margin-top: 30px;">New</span>
+          <div class="card-body">
+            <center><a href="#" class="card-title text-center">Lorem ipsum kids seven</a></center>
+            <p style="line-height: 30px;" class="text-center">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i> <br>
+              <i>$33.3 - <a class="rate"><del>$55.5</del></a></i>
+            </p>
+          </div>
+        </div>
+        <div style="border: none;" class="card">
+          <div class="img-content">
+            <a href="#"><img src="1.jpg" class="card-img-top" alt="..."></a>
+            <div class="hover-image">
+              <a href="#"><img src="3.jpg" class="card-img-top" alt="..."></a>
+              <div class="hover-image-link">
+                <li><i class="far fa-heart"></i></li>
+                <li><a href="#">Select Option</a></li>
+                <li style="float: right;"><a class="fa fab-eye">eye</a></li>
+              </div>
+            </div>
+          </div>
+          <span>-10%</span>
+          <div class="card-body">
+            <center><a href="#" class="card-title text-center">Lorem ipsum jacket</a></center>
+            <p style="line-height: 30px;" class="text-center">
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i> <br>
+              <i>$11.2 - <a class="rate"><del>$12.45</del></a></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

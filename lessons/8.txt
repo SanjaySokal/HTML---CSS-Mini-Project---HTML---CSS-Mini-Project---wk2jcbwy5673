@@ -1,0 +1,9 @@
+<html>
+    <title>sokal html</title>
+    <body>
+        click to goto lesson1:- <a href="lesson1.html">click here</a><br>
+        goto image :- <a href="index.jpg">click here</a><br>
+        <a href="index.jpg"><img src="index.jpg" alt="no image found" width="100px" height="100px"></a>
+        <a href="https://www.youtube.com/">Youtube</a>
+    </body>
+</html>

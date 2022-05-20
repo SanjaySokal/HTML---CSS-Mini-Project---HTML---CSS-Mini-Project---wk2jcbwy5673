@@ -1,0 +1,64 @@
+section a, #html a, #css a, #android a, #js a{
+    padding: 10px 20px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: all 0.3s linear 0s;
+    display: block;
+}
+section{
+    display: flex;
+}
+section a:hover, #html a:hover, #css a:hover, #android a:hover, #js a:hover{
+    background-color: #fff;
+    color: #000;
+}
+#html, #css, #android, #js{
+    margin: 0px 100px 100px 100px;
+    padding: 30px;
+}
+#html .title, #css .title, #android .title, #js .title{
+    margin-top: 55px;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1080px){
+    section a, #html a, #css a, #android a, #js a{
+        padding: 7px 15px 7px;
+        margin-left: 15px;
+    }
+    #html, #css, #android, #js{
+        margin: 0px 70px 70px 70px;
+        padding: 10px;
+    }
+    #html .title, #css .title, #android .title, #js .title{
+        margin-top: 22px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    section a, #html a, #css a, #android a, #js a{
+        padding: 3px 7px 3px;
+        margin-left: 3px;
+        font-size: 10px;
+    }
+    #html, #css, #android, #js{
+        margin: 0px 20px 20px 20px;
+        padding: 6px;
+    }
+    #html .title, #css .title, #android .title, #js .title{
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+}

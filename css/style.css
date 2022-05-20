@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+nav{
+    padding: 25px;
+    overflow: hidden;
+    position: sticky;
+    background-color: blueviolet;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    border: 1px solid #fff;
+}
+label{
+    font-size: 30px;
+    float: left;
+    color: #fff;
+    line-height: 30px;
+}
+ul{
+    float: right;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    line-height: 30px;
+}
+li a{
+    padding: 7px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.5s linear;
+    border-right: transparent;
+    box-sizing: border-box;
+}
+li a:hover{
+    background-color: blue;
+}
+section{
+    margin: 20px 50px;
+    display: block;
+    height: auto;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    background-color: cornflowerblue;
+    position: relative;
+    border: 1px solid #ffd;
+    overflow: hidden;
+    padding: 25px;
+}
+.box{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #fff;
+    background: rebeccapurple;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    height: auto;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 2px #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.box:hover{
+    box-shadow: 0px 5px 7px 5px rgba(0, 0, 0, 0.3);
+}
+.box:hover img{
+    box-shadow: 0px 2px 5px 2px rgba(255, 255, 255);
+}
+.box img{
+    box-sizing: border-box;
+    width: auto;
+    height: 80px;
+}
+.box p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+footer{
+    border-top: 1px solid #fff;
+    padding: 25px;
+    display: block;
+    overflow: hidden;
+}
+footer .copy a{
+    color: #fff;
+}
+.copy{
+    float: left;
+}
+.icons{
+    display: inline;
+    float: right;
+}
+.icons a{
+    color: #fff;
+    margin-right: 10px;
+}

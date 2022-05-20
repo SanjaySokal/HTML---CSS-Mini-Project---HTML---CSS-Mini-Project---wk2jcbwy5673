@@ -1,0 +1,24 @@
+<html>
+
+<body bgcolor="lightblue">
+    <table border="1">
+        <tr bgcolor="pink">
+            <td bgcolor="red">NAME</td>
+            <td>NO.</td>
+        </tr>
+        <tr>
+            <td>SOKAL</td>
+            <td>7878</td>
+        </tr>
+        <tr>
+            <td>SANJAY</td>
+            <td>424</td>
+        </tr>
+        <tr>
+            <td>SANJAY SOKAL</td>
+            <td>123</td>
+        </tr>
+    </table>
+</body>
+
+</html>

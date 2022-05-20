@@ -1,0 +1,17 @@
+section a{
+    padding: 10px 20px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s linear 0s;
+    margin-top: 20px;
+    display: block;
+}
+section a:hover{
+    background-color: #fff;
+    color: #000;
+}

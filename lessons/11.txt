@@ -1,0 +1,9 @@
+<html>
+<body>
+    a<sup>2</sup> + b<sup>2</sup> = (a+b)<sup>2</sup> <br>
+    a<sub>2</sub> + b<sub>2</sub> = c<sub>2</sub> <br>
+    log<sub>2</sub> + log<sub>3</sub> = log<sub>5</sub> <br>
+    &copy;Soakl HTML <br>
+    Hello &nbsp;&nbsp;&nbsp;World
+</body>
+</html>

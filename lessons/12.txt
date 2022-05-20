@@ -1,0 +1,7 @@
+<html>
+<body>
+    <meter low="30" min="0" max="100" value="35"></meter> <br>
+    color is <del>black</del> <br>
+    <ins>green</ins>
+</body>
+</html>

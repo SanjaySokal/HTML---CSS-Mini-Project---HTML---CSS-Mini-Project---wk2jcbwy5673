@@ -1,0 +1,12 @@
+@media only screen and (max-width: ){
+    label{
+        font-size: 25px;
+    }
+    li a{
+        font-size: 15px;
+        padding: 6px;
+    }
+    section{
+        margin: 17px 43px;
+    }
+}

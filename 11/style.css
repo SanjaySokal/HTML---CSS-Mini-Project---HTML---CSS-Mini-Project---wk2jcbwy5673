@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    list-style-type: none;
+}
+.bg-dark{
+    height: 35px;
+    overflow: hidden;
+}
+.nl{
+    padding: 0px 10px;
+    color: #fff;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 1rem;
+    float: left;
+}
+.nl:hover{
+    background-color: red;
+    text-decoration: none;
+    color: #fff;
+}
+.right{
+    float: right;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.fa-user{
+    color: #fff;
+    width: 15px;
+    height: 15px;
+}
+.fa-search{
+    position: absolute;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    top: 0;
+    cursor: pointer;
+}
+.cart{
+    position: absolute;
+    padding: 5px 10px;
+    right: 120px;
+    border-radius: 5px;
+    top: 35px;
+    color: #fff;
+    background-color: green;
+}
+.cart:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.col-lg-3 img{
+    width: 200px;
+    box-sizing: border-box;
+}
+.color-red a{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+.color-red a:hover{
+    color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-green .container li{
+    display: inline-flex;
+}
+.bg-green .container a{
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    display: inline-block;
+    padding: auto;
+    width: 100%;
+}
+.bg-green .container a:hover{
+    background-color: red;
+}
+.nav-link-hidden{
+    color: red !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.nav-link-hidden:hover{
+    background-color: rgba(0, 0, 0, 0.03) !important;
+}
+#show1{
+    position: absolute;
+    overflow: hidden;
+    padding: 3px 0px;
+    display: none;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.show1:hover > #show1{
+    display: block;
+}
+.button-slide-control{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+.button-slide-control button{
+    color: #000;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+h3 a{
+    color: red;
+}
+h3 a:hover{
+    color: red;
+}
+.col .box{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 16px -2px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.col .box a{
+    color: red;
+}
+.col .box img{
+    box-sizing: border-box;
+    width: 100%;
+}
+footer{
+    color: white;
+    background-color: #000;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: red;
+}
+footer button{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(138, 134, 134);
+}
+
+
+
+
+@media (max-width:800px){
+    
+    .bg-dark{
+        height: 100px;
+        text-align: center;
+    }
+    .nl{
+        line-height: 0;
+        text-align: center;
+        display: inline-block;
+        float: inherit;
+    }   
+    .right{
+        float: inherit;
+    }
+    .cart{
+        right: 40px;
+        top: 100px;
+    }
+    .col-lg-3 img{
+        width: 150px;
+    }
+}

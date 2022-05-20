@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: blanchedalmond;
+}
+a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: green;
+    border-bottom: 1px solid green;
+}

@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Sign in</legend>
+            Name :- <input type="text"> <br> <br>
+            Email :- <input type="email"> <br> <br>
+            Password :- <input type="password"> <br> <br>
+            Your fav. Colour :- <input type="color"> <br> <br>
+            Gender :- <br>
+            Male <input type="radio" name="gender">
+            Female <input type="radio" name="gender"> <br> <br>
+            Date of Birth :- <input type="date"> <br> <br>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+.error{
+    margin: 100px;
+}
+.error a{
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+}
+.error a:hover{
+    color: #000;
+    background-color: #fff;
+}

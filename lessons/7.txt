@@ -1,0 +1,5 @@
+<html>
+    <body>
+        <audio src="music.mp3" type="audio/mp3" controls autoplay></audio>
+    </body>
+</html>

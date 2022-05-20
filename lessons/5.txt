@@ -1,0 +1,5 @@
+<html>
+<body>
+<img src="image-name.jpg" width="400px" height="400px" alt="no image found">
+</body>
+</html>
